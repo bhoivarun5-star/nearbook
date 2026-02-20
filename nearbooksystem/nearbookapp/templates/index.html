@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nearbook | Connect with Your Community</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <meta name="description" content="Nearbook is a modern community platform designed to bring people together. Explore, connect, and thrive.">
+</head>
+<body>
+    <nav id="navbar">
+        <div class="container">
+            <div class="logo">
+                <span class="logo-text">Near<span>book</span></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-cta">
+                <a href="#" class="btn btn-primary">Join Now</a>
+            </div>
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="hero-background">
+            <div class="blob blob-1"></div>
+            <div class="blob blob-2"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="fade-in">Connect with your <br><span class="gradient-text">Local Neighborhood</span></h1>
+                <p class="fade-in delay-1">Nearbook brings you closer to the people around you. Discover local events, share news, and build a stronger community together.</p>
+                <div class="hero-btns fade-in delay-2">
+                    <a href="#" class="btn btn-xl btn-primary">Get Started</a>
+                    <a href="#features" class="btn btn-xl btn-outline">Learn More</a>
+                </div>
+            </div>
+            <div class="hero-image fade-in delay-3">
+                <div class="glass-card">
+                    <div class="card-content">
+                        <div class="mock-ui">
+                            <div class="mock-header"></div>
+                            <div class="mock-body">
+                                <div class="mock-line long"></div>
+                                <div class="mock-line med"></div>
+                                <div class="mock-line short"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2>Why Choose <span class="gradient-text">Nearbook</span>?</h2>
+                <p>Modern features built for contemporary communities.</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card glass-card">
+                    <div class="icon">📍</div>
+                    <h3>Local Discoveries</h3>
+                    <p>Find hidden gems, local businesses, and community hotspots in your area.</p>
+                </div>
+                <div class="feature-card glass-card">
+                    <div class="icon">🤝</div>
+                    <h3>Community Growth</h3>
+                    <p>Collaborate on local projects and help your neighborhood thrive together.</p>
+                </div>
+                <div class="feature-card glass-card">
+                    <div class="icon">📱</div>
+                    <h3>Instant Alerts</h3>
+                    <p>Stay updated with real-time notifications about important local events.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-info">
+                    <span class="logo-text">Near<span>book</span></span>
+                    <p>Building stronger neighborhoods, one connection at a time.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Follow Us</h4>
+                    <div class="social-icons">
+                        <a href="#">Tw</a>
+                        <a href="#">In</a>
+                        <a href="#">Fb</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Nearbook. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="{% static 'js/script.js' %}"></script>
+</body>
+</html>
